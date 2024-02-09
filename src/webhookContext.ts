@@ -31,6 +31,12 @@ export class WebhookContext {
     public res: Response;
     public params: any = {};
 
+    /**
+     * Construct a new instance.
+     * @param transId The transaction ID.
+     * @param req The HTTP request object.
+     * @param res The HTTP response object.
+     */
     constructor(transId: string, req: Request, res: Response) {
         this.transId = transId;
         this.req = req;
