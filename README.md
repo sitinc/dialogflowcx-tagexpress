@@ -1,2 +1,2 @@
 # dialogflowcx-tagexpress
-Typescript module for abstracting and simplifying Dialogflow CX tag routing for ExpressJS.
+Typescript module for abstracting and simplifying Dialogflow CX webhook tag routing for ExpressJS.
